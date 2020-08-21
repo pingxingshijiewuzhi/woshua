@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "机具列表",
+  "usingComponents": {
+    "passkeyborad": "/components/yzc-paykeyboard/yzc-paykeyboard"
+  }
+}

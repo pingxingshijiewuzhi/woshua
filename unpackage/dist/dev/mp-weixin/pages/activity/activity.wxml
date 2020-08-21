@@ -1,0 +1,1 @@
+<view class="box"><view class="box_list"><block wx:for="{{activeList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view data-event-opts="{{[['tap',[['tobuy',['$0'],[[['activeList','',index,'id']]]]]]]}}" class="barner" style="{{('background-image: url('+imgUrl+item.image+')')}}" bindtap="__e"></view></block></block></view></view>

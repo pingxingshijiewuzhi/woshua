@@ -1,0 +1,347 @@
+
+.converresult.data-v-0e757b1e {
+	width: 100vw;
+	height: 100vh;
+	/* background-color:#F2F2F2; */
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+/* mytabbar */
+.mytabbar.data-v-0e757b1e {
+	width: 100%;
+	height: 120rpx;
+	padding: 30rpx 20rpx;
+}
+.mytabbar_image.data-v-0e757b1e {
+	width: 40rpx;
+	height: 34rpx;
+}
+.mytabbar_text.data-v-0e757b1e {
+	font-size: 38rpx;
+}
+.mytabbar_right.data-v-0e757b1e {
+	font-size: 28rpx;
+}
+.mytabbar_top.data-v-0e757b1e {
+	width: 100%;
+	height: 100rpx;
+}
+.converresult_header.data-v-0e757b1e {
+	height: 270rpx;
+	width: 100%;
+	border-bottom: 1rpx solid #E5E5E5;
+	border-top: 1rpx solid #E5E5E5;
+}
+.imgbox.data-v-0e757b1e {
+	height: 180rpx;
+	width: 100%;
+	padding-top: 50rpx;
+	padding-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.imgbox image.data-v-0e757b1e {
+	width: 100rpx;
+	height: 100rpx;
+}
+.opacitytitle.data-v-0e757b1e {
+	height: 40rpx;
+	line-height: 40rpx;
+	width: 100%;
+	text-align: center;
+	color: #F0AC4B;
+}
+
+/* 拒绝通过和确认审核颜色 */
+.opacitytitleooo.data-v-0e757b1e {
+	height: 40rpx;
+	line-height: 40rpx;
+	width: 100%;
+	text-align: center;
+	color: #90A6FB;
+}
+
+/* 机具图片 */
+.converrecodeitem.data-v-0e757b1e {
+	padding: 30rpx 30rpx 20rpx 30rpx;
+	background-color: #FFFFFF;
+	height: 180rpx;
+	border-bottom: 1rpx solid #E5E5E5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.myitem_left.data-v-0e757b1e {
+	height: 130rpx;
+	padding: 10rpx 0;
+	width: 300rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.myitem_right.data-v-0e757b1e {
+	height: 130rpx;
+	padding-top: 90rpx;
+}
+.myitem_left image.data-v-0e757b1e {
+	width: 82rpx;
+	height: 126rpx;
+}
+.oneprice.data-v-0e757b1e {
+	height: 100%;
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.mygay.data-v-0e757b1e {
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.addcolorandred.data-v-0e757b1e {
+	color: red;
+	font-size: 30rpx;
+}
+.converresult_content.data-v-0e757b1e {
+	padding: 0 30rpx;
+	padding-top: 20rpx;
+	width: 100%;
+}
+.contetn_item.data-v-0e757b1e {
+	height: 80rpx;
+	padding: 20rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.item_left.data-v-0e757b1e {
+	width: 140rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.item_right.data-v-0e757b1e {
+	line-height: 40rpx;
+	height: 40rpx;
+	width: 390rpx;
+	text-align: end;
+}
+.item_right_flex.data-v-0e757b1e {
+	height: 40rpx;
+	width: 180rpx;
+	/* border:1rpx solid red; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.item_right_flex image.data-v-0e757b1e {
+	height: 30rpx;
+	width: 30rpx;
+}
+.item_right_flex>view.data-v-0e757b1e {
+	width: 120rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+}
+
+/* 模态框样式 */
+.masking.data-v-0e757b1e {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .3);
+}
+.bigbox.data-v-0e757b1e {
+	width: 690rpx;
+	height: 320rpx;
+	background-color: #FFFFFF;
+	border-radius: 40rpx;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	letter-spacing: 4rpx;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.mytitle.data-v-0e757b1e {
+	width: 100%;
+	height: 120rpx;
+	line-height: 120rpx;
+	text-align: center;
+	color: #5B7DF8;
+	font-size: 30rpx;
+}
+.myentrue.data-v-0e757b1e {
+	height: 90rpx;
+	line-height: 90rpx;
+	width: 100%;
+	text-align: center;
+	color: #9A9A9A;
+}
+
+/* 模态框底部按钮 */
+.bottombtn.data-v-0e757b1e {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 70rpx;
+	border-top: 1rpx solid #E5E5E5;
+}
+.action_left.data-v-0e757b1e {
+	height: 70rpx;
+	line-height: 70rpx;
+	width: 50%;
+	text-align: center;
+	border-bottom-left-radius: 40rpx;
+}
+.action_right.data-v-0e757b1e {
+	text-align: center;
+	line-height: 70rpx;
+	height: 70rpx;
+	width: 50%;
+	background-color: #FFFFFF;
+	color: #5A7EF8;
+	border-left: 1rpx solid #E5E5E5;
+	border-top: 1rpx solid #E5E5E5;
+	border-bottom-right-radius: 40rpx;
+}
+
+/* 发放机具底部按钮 */
+.mybottombtn.data-v-0e757b1e {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #FFFFFF;
+	background-color: #5A7EF8;
+	text-align: center;
+}
+
+/* 新机模态框样式 */
+.orderbox.data-v-0e757b1e {
+	width: 100%;
+	height: 650rpx;
+	overflow: hidden;
+	overflow-y: scroll;
+	padding: 0 30rpx;
+	padding-top: 30rpx;
+	background-color: #FFFFFF;
+	border-radius: 40rpx;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.close.data-v-0e757b1e {
+	width: 36rpx;
+	height: 36rpx;
+	position: absolute;
+	top: 25rpx;
+	right: 25rpx;
+}
+.orderbox_head.data-v-0e757b1e {
+	height: 70rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.orderbox_head_item.data-v-0e757b1e {
+	width: 200rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.orderbox_headcnter.data-v-0e757b1e {
+	width: 200rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 30rpx;
+}
+.orderbox_content.data-v-0e757b1e {
+	height: 60rpx;
+	padding: 15rpx 0;
+	width: 100%;
+	padding: 0 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.orderbox_content_left.data-v-0e757b1e {
+	/* height:60rpx;
+	line-height: 60rpx; */
+	width: 280rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.addyellow.data-v-0e757b1e {
+	color: #DAAE4F;
+}
+.fa_bottombtn.data-v-0e757b1e {
+	width: 100%;
+	line-height: 90rpx;
+	background-color: #5A7EF8;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+

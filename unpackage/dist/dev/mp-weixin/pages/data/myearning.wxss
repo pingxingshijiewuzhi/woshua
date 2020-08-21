@@ -1,0 +1,51 @@
+
+.myearning.data-v-428fbc1c {
+	background-color: #F2F2F2;
+	width: 100vw;
+	/* height:100vh; */
+	padding-top: 30rpx;
+	overflow-y: scroll;
+}
+.earning_item.data-v-428fbc1c {
+	margin-bottom: 30rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	padding: 40rpx 30rpx 80rpx 30rpx;
+	height: 320rpx;
+	/* width:100%; */
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+}
+.earning_item_date.data-v-428fbc1c {
+	width: 160rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	background-color: #EAA90F;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 50rpx;
+}
+.earningcount.data-v-428fbc1c{
+	width:100%;
+	padding-top: 30rpx;
+	height:120rpx;
+	line-height: 90rpx;
+	/* border:1rpx solid red; */
+	text-align:center;
+}
+.mynum.data-v-428fbc1c {
+	width: 630rpx;
+	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #333333;
+	font-size: 58rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

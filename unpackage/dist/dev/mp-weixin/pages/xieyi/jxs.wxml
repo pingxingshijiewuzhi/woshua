@@ -1,0 +1,1 @@
+<view class="jxs_content "><rich-text nodes="{{content}}"></rich-text></view>

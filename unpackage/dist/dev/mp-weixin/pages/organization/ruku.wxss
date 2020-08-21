@@ -1,0 +1,111 @@
+
+.ruku.data-v-11ed9aa0 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F2F2F2;
+}
+
+/* mytabbar */
+.mytabbar.data-v-11ed9aa0 {
+	width: 100%;
+	height: 120rpx;
+	background-color: #5A7EF8;
+	padding: 30rpx 20rpx;
+}
+.mytabbar_image.data-v-11ed9aa0 {
+	width: 40rpx;
+	height: 34rpx;
+}
+.mytabbar_text.data-v-11ed9aa0 {
+	font-size: 38rpx;
+	color: #FCFFFC;
+}
+.mytabbar_right.data-v-11ed9aa0 {
+	font-size: 28rpx;
+	color: #DDE9F4;
+}
+.mytabbar_top.data-v-11ed9aa0 {
+	width: 100%;
+	height: 100rpx;
+}
+
+/* 入库流水记录样式 */
+.nothing.data-v-11ed9aa0 {
+	margin-bottom: 30rpx;
+}
+.mytimetitle.data-v-11ed9aa0 {
+	height: 82rpx;
+	line-height: 82rpx;
+	background-color: #FFFFFF;
+	font-size: 34rpx;
+	padding-left: 30rpx;
+	border-bottom: 1rpx solid #E5E5E5;
+}
+.recodeitem.data-v-11ed9aa0 {
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	height: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 30rpx;
+}
+.recodeitem_left.data-v-11ed9aa0 {
+	height: 90rpx;
+	width: 400rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* align-items: center; */
+}
+.left_time.data-v-11ed9aa0 {}
+.left_title.data-v-11ed9aa0 {
+	height: 36rpx;
+	line-height: 36rpx;
+	font-size: 30rpx;
+	color: #5F84F6;
+}
+.recodeitem_right.data-v-11ed9aa0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	height: 90rpx;
+	width: 300rpx;
+	text-align: right;
+}
+.addmycolor.data-v-11ed9aa0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 80rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 36rpx;
+	line-height: 36rpx;
+	font-size: 30rpx;
+}
+.addfontsize.data-v-11ed9aa0 {
+	font-size: 34rpx;
+}
+

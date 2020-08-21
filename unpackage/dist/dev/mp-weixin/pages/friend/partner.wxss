@@ -1,0 +1,161 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* border */
+.border {
+	width: 100%;
+	height: 140rpx;
+	color: #3D3D3D;
+	background-color: #FFFFFF;
+	padding: 40rpx 30rpx 0 30rpx;
+}
+.border_image {
+	width: 40rpx;
+	height: 30rpx;
+}
+.border_text {
+	font-size: 32rpx;
+	letter-spacing: 8rpx;
+	margin-left: 34rpx;
+	font-weight: 600;
+}
+.border_right {
+	font-size: 30rpx;
+}
+.border_top {
+	width: 94%;
+	height: 100rpx;
+}
+
+/* barner */
+.barner {
+	width: 100%;
+	height: 260rpx;
+	background-color: #FFFFFF;
+	padding-top: 30rpx;
+}
+.barner_big {
+	padding: 60rpx 30rpx;
+}
+.barner_input {
+	width: 92%;
+	height: 60rpx;
+	margin: 0 4%;
+	background-color: #E5E5E5;
+	border-radius: 50rpx 50rpx;
+}
+.barner_input input {
+	padding-left: 46rpx;
+	padding-top: 16rpx;
+}
+.barner_size {
+	font-size: 30rpx;
+	color: #000000;
+	margin-right: 16rpx;
+}
+.barner_month {
+	width: 100%;
+	height: 250rpx;
+	background-color: #FFFFFF;
+	position: absolute;
+	z-index: 100;
+}
+.barner_list {
+	width: 100%;
+	line-height: 80rpx;
+	background-color: #FFFFFF;
+	color: #737373;
+	text-align: center;
+}
+.barnner_active {
+	width: 100%;
+	line-height: 80rpx;
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* .barner_right {
+	margin-left: -130rpx;
+} */
+.list_title {
+	width: 100%;
+	height: 30rpx;
+	line-height: 30rpx;
+	color: #F2F2F2;
+	background-color: #F2F2F2;
+}
+.list {
+	width: 100%;
+	height: 170rpx;
+	background-color: #FFFFFF;
+	padding: 0 10rpx 0 30rpx;
+	border-bottom: 1px solid #F3F3F3;
+}
+.list_image {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50% 50%;
+}
+.list_name {
+	font-size: 32rpx;
+	margin-left: 30rpx;
+	font-weight: 600;
+}
+.moneybox{
+	width:300rpx;
+	text-align: right;
+}
+.list_money {
+	width: 300rpx;
+	height: 60rpx;
+	color: #F00706;
+}
+.new_money {
+	font-size: 36rpx
+}
+.list_month {
+	color: #989898;
+}
+.big_list {
+	width: 100%;
+	/* border:1rpx solid red; */
+	/* min-height:calc(100vh - 400rpx); */
+	height: calc(100vh - 400rpx);
+	overflow-y: scroll;
+}
+.list_add {
+	color: #6A6A6A;
+	width: 260rpx;
+	margin-left: 30rpx;
+	margin-top: 10rpx;
+}
+.barner_next {
+	width: 24rpx;
+	height: 16rpx;
+}
+.barner_to {
+	width: 8rpx;
+	height: 30rpx;
+	display: inline-block;
+	margin-left: 10rpx;
+}
+.barner_tos {
+	width: 10rpx;
+	height: 30rpx;
+
+	display: inline-block;
+}
+.addfontsize{
+	font-size: 28rpx;
+}
+

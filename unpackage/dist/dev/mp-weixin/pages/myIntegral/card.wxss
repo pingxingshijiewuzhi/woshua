@@ -1,0 +1,61 @@
+
+.box {
+	width: 100vw;
+}
+.border {
+	width: 100%;
+	height: 80rpx;
+	background-color: #FFFFFF;
+	font-weight: 600;
+}
+.border_left {
+	width: 100rpx;
+	line-height: 80rpx;
+	font-size: 32rpx;
+	text-align: center;
+}
+.chooseactive {
+	width: 100rpx;
+	height: 80rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #6180DE;
+	border-bottom: solid 2rpx #6180DE;
+}
+.time {
+	width: 100%;
+	line-height: 100rpx;
+	padding: 0 24rpx;
+	font-size: 34rpx;
+}
+.time_tim {
+	color: #878787;
+	margin-top: 20rpx;
+}
+.time_top {
+	width: 100%;
+	height: 160rpx;
+	background-color: #FFFFFF;
+	padding: 0 30rpx;
+}
+.time_jiju {
+	font-size: 30rpx;
+	color: #6180DE;
+	font-weight: 500;
+}
+.time_right {
+	color: #E53230;
+	font-weight: 600;
+}
+.number {
+	font-size: 36rpx;
+}
+.box_hight {
+	width: 100%;
+	height: calc(100vh -300rpx);
+	overflow-y: scroll;
+}
+.uni-loadmore {
+	text-align: center;
+}
+

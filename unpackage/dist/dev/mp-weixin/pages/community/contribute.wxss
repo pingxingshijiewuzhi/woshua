@@ -1,0 +1,131 @@
+
+.contribute.data-v-08adf6cc{
+	width: 100vw;
+	height: 100vh;
+	background-color:#F2F2F2;
+}
+.mytabbar.data-v-08adf6cc{
+	width: 100%;
+	height: 120rpx;
+	background-color: #FFFFFF;
+	padding: 30rpx 20rpx;
+}
+.mytabbar_image.data-v-08adf6cc{
+	width: 40rpx;
+	height: 34rpx;
+}
+.mytabbar_text.data-v-08adf6cc{
+	font-size: 38rpx;
+}
+.mytabbar_right.data-v-08adf6cc{
+	font-size: 28rpx;
+}
+.mytabbar_top.data-v-08adf6cc{
+	width: 100%;
+	height: 100rpx;
+}
+.mycontent.data-v-08adf6cc{
+	height:calc(100vh - 190rpx);
+	/* border:1rpx solid red; */
+	width:100%;
+	padding: 0 30rpx;
+}
+.mytitle.data-v-08adf6cc{
+	height:96rpx;
+	width:94%;
+	margin: 0 3%;
+	line-height: 96rpx;
+	font-size: 30rpx;
+}
+.textcontent.data-v-08adf6cc{
+	position: relative;
+	width:94%;
+	margin: 0 auto;
+	height:300rpx;
+	border-radius: 20rpx;
+	background-color: #FFFFFF;
+}
+.intext.data-v-08adf6cc{
+	padding-top: 20rpx;
+	padding-left: 20rpx;
+	width:100%;
+	height:100%;
+}
+.totalnum.data-v-08adf6cc{
+	position: absolute;
+	bottom: 10rpx;
+	right:10rpx;
+}
+.uploadimg.data-v-08adf6cc{
+	height:110rpx;
+	padding-top: 40rpx;
+	padding-bottom: 30rpx;
+	line-height: 40rpx;
+	width:94%;
+	margin: 0 auto;
+	font-size: 30rpx;
+}
+.pictorbox.data-v-08adf6cc{
+	width: 96%;
+	margin: 0 auto;
+}
+.pictorbox image.data-v-08adf6cc{
+	width:194rpx;
+	height:164rpx;
+}
+/* 图片弹框样式 */
+.myimgtype.data-v-08adf6cc{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,.3);
+}
+.content.data-v-08adf6cc{
+	position: absolute;
+	bottom: 120rpx;
+	left:40rpx;
+	right:40rpx;
+	height:160rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	color:#3C84F2;
+}
+.common_type.data-v-08adf6cc{
+	width:100%;
+	height:80rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+.addbottom.data-v-08adf6cc{
+	border:1rpx solid #F2F2F2;
+}
+.commoncancle.data-v-08adf6cc{
+	line-height: 80rpx;
+	text-align: center;
+	color:#3C84F2;
+	border-radius: 20rpx;
+	position: absolute;
+	bottom: 20rpx;
+	left:40rpx;
+	right:40rpx;
+	height:80rpx;
+	background-color: #FFFFFF;
+}
+/* 底部按钮 */
+.bottombtn.data-v-08adf6cc{
+	width: 90%;
+	margin: 0 auto;
+	position: fixed;
+	left:0;
+	right:0;
+	bottom: 0;
+	height:90rpx;
+}
+.bottombtn image.data-v-08adf6cc{
+	width:100%;
+	height:100%;
+	border-radius: 50rpx 50rpx;
+}
+

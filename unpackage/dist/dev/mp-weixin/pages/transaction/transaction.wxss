@@ -1,0 +1,58 @@
+
+.transaction{
+}
+/* 头部盒子 */
+.topbox{
+	background-color: #0267DD;
+	color:#FFFFFF;
+	text-align: center;
+}
+.statusbox{
+	height:80rpx;
+	padding-top: 40rpx;
+}
+.pricenumber{
+	font-size: 50rpx;
+	height:80rpx;
+	line-height: 80rpx;
+}
+.procedurebox{
+	height:80rpx;
+	padding-bottom: 40rpx;
+}
+/* 渲染盒子 */
+.cantentbox{
+	padding-top: 10rpx;
+	width:100%;
+	height:auto;
+	background-color: #FFFFFF;
+}
+.item_box{
+	width: 96%;
+	margin: 0 2%;
+	height:100rpx;
+	/* border:1rpx solid red; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.item_boxkey{
+	width: 200rpx;
+	height:80rpx;
+	line-height: 80rpx;
+	/* border:1rpx solid blue; */
+}
+.item_boxvalue{
+	width: 400rpx;
+	height:80rpx;
+	line-height: 80rpx;
+	/* border: 1rpx solid red; */
+	text-align: right;
+}
+

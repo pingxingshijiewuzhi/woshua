@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人业绩",
+  "navigationBarBackgroundColor": "#5A7EF8",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

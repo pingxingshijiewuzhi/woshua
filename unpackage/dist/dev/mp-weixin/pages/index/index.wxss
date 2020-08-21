@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-noticebar.data-v-24a05de4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 80%;
+  box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 6px 12px;
+}
+.uni-noticebar-close.data-v-24a05de4 {
+  margin-right: 5px;
+}
+.uni-noticebar-icon.data-v-24a05de4 {
+  margin-right: 5px;
+}
+.uni-noticebar__content-wrapper.data-v-24a05de4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+.uni-noticebar__content-wrapper--single.data-v-24a05de4 {
+  line-height: 18px;
+}
+.uni-noticebar__content-wrapper--single.data-v-24a05de4,
+.uni-noticebar__content-wrapper--scrollable.data-v-24a05de4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.uni-noticebar__content-wrapper--scrollable.data-v-24a05de4 {
+  position: relative;
+  height: 18px;
+}
+.uni-noticebar__content--scrollable.data-v-24a05de4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: block;
+  overflow: hidden;
+}
+.uni-noticebar__content--single.data-v-24a05de4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.uni-noticebar__content-text.data-v-24a05de4 {
+  font-size: 14px;
+  line-height: 18px;
+  word-break: break-all;
+}
+.uni-noticebar__content-text--single.data-v-24a05de4 {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uni-noticebar__content-text--scrollable.data-v-24a05de4 {
+  position: absolute;
+  display: block;
+  height: 18px;
+  line-height: 18px;
+  white-space: nowrap;
+  padding-left: 100%;
+  -webkit-animation: notice-data-v-24a05de4 10s 0s linear infinite both;
+          animation: notice-data-v-24a05de4 10s 0s linear infinite both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.uni-noticebar__more.data-v-24a05de4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 5px;
+}
+.uni-noticebar__more-text.data-v-24a05de4 {
+  font-size: 14px;
+}
+@-webkit-keyframes notice-data-v-24a05de4 {
+100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+}
+}
+@keyframes notice-data-v-24a05de4 {
+100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+}
+}
+
+
+page {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F2F2F2;
+}
+uni-image {
+	width: 100%;
+	height: 420rpx;
+}
+.image_left {}
+.images_swiper{
+	width: 100%;
+	height: 100%;
+}
+
+/* barner */
+.barner {
+	width: 100%;
+	height: 314rpx !important;
+}
+
+/* list */
+.biglist {
+	width: 100%;
+	height: 380rpx;
+	background-color: #FFFFFF;
+	font-size: 28rpx;
+	line-height: center;
+}
+.list {
+	width: 300rpx;
+	text-align: center;
+	margin-top: 25rpx;
+}
+.list_image {
+	width: 92rpx;
+	height: 92rpx;
+	background-color: #FFFFFF;
+}
+.list_text {
+	width: 100%;
+	height: 50%;
+	font-size: 30rpx;
+}
+.list_texts {
+	width: 100%;
+	height: 40%;
+	font-size: 30rpx;
+}
+
+/* notice */
+.notice {
+	height: 80rpx;
+	background-color: #FFFFFF;
+	margin-top: 25rpx;
+}
+.notice image {
+	margin-left: 30rpx;
+	width: 44rpx;
+	height: 34rpx;
+}
+.notice_title {
+	width: 350rpx;
+	margin-left: 20rpx
+}
+.uni-noticebar {
+	width: 100% !important;
+	color: #000000 !important;
+}
+
+/* now */
+.now {
+	width: 94%;
+	height: 370rpx;
+	margin: 0rpx auto;
+	padding: 10rpx 0;
+	background-color: #FFFFFF;
+	margin-top: 25rpx;
+	border-radius: 15rpx;
+	box-shadow: 2px 5px 12px rgba(0, 0, 0, .1);
+}
+.screenitem{
+	width:240rpx;
+	height:50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	/* border:1rpx solid red; */
+}
+.now_start {
+	height: 40rpx;
+	font-size: 30rpx;
+	margin: 25rpx 0 0 20rpx;
+	padding: 0 0 0 10rpx;
+	color: #617FE4;
+	width: 330rpx;
+	border-left: solid 6rpx #617FE4;
+	font-weight: 600;
+}
+.now_next {
+	width: 100%;
+	line-height: 60rpx;
+	height:60rpx;
+	font-size: 34rpx;
+	color: #A1A1A1;
+	text-align: center;
+	margin-top: 6rpx;
+}
+.now_ran {
+	line-height: 70rpx;
+	height:70rpx;
+	font-size: 50rpx;
+	color: #5980F8;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 6rpx;
+}
+.now_number {
+	line-height: 50rpx;
+	font-size: 36rpx;
+	color: #555555;
+	text-align: center;
+	margin-top: 16rpx;
+}
+.now_last {
+	line-height: 50rpx;
+	font-size: 34rpx;
+	color: #555555;
+	margin-top: 10rpx;
+}
+
+/* last */
+.last {
+	width: 92%;
+	height: 280rpx;
+	margin: 25rpx auto;
+	background-color: #FFFFFF;
+	border-radius: 20rpx 20rpx;
+	padding-top: 10rpx;
+	box-shadow: 2px 5px 12px rgba(0, 0, 0, .1);
+}
+.last_big {}
+.last_left {
+	height:50rpx;
+	line-height: 50rpx;
+	font-size: 34rpx;
+	color: #555555;
+}
+.last_right {
+	height:50rpx;
+	line-height: 50rpx;
+	font-size: 34rpx;
+	color: #D94647;
+}
+

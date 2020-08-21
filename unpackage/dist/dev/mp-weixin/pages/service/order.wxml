@@ -1,0 +1,1 @@
+<view class="box"><view class="border flexs1">{{orderdetailobj.question}}</view><view class="barner flexs">客服解答</view><view class="bottom"><rich-text nodes="{{orderdetailobj.answer}}"></rich-text></view></view>

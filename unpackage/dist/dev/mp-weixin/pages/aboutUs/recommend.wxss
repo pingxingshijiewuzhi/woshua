@@ -1,0 +1,32 @@
+
+.box {
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFFFFF;
+	color: #888888;
+	letter-spacing: 2rpx;
+	padding: 0 40rpx;
+	/* border:1rpx solid red; */
+}
+
+/* 	.border{
+	width: 100%;
+	height: 300rpx;
+}
+.border_logo{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 20rpx;
+	background-color:#F2F2F2;
+	color: #333333;
+}
+.title{
+	font-size: 34rpx;
+	line-height: 100rpx;
+}
+.center{
+	width: 100%;
+	line-height: 50rpx;
+	padding: 0 30rpx;
+} */
+

@@ -1,0 +1,53 @@
+
+.box {
+	width: 100vw;
+	overflow-y: scroll;
+	background-color: #F2F2F2;
+}
+.button {
+	width: 100%;
+	height: 100rpx;
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.mybutton {
+	width: 100%;
+	height: 100rpx;
+}
+.big_list {
+	width: 100%;
+	/* height: calc(100vh - 100rpx); */
+	/* height: 500rpx; */
+	/* overflow-y: scroll; */
+	/* border: 1rpx solid red; */
+}
+.list {
+	width: 100%;
+	height: 192rpx;
+	padding-left: 30rpx;
+	line-height: 52rpx;
+	position: relative;
+	background-color: #FFFFFF;
+	margin-top: 30rpx;
+}
+.list_image {
+	width: 88rpx;
+	height: 88rpx;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.list_time {
+	color: #ADADAD;
+}
+.list_mt {
+	padding-top: 20rpx;
+}
+.uni-loadmore {
+	text-align: center;
+}
+

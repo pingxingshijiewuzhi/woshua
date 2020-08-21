@@ -1,0 +1,141 @@
+
+.jiebang {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F2F2F2;
+}
+
+/* mytabbar */
+.mytabbar {
+	width: 100%;
+	height: 120rpx;
+	background-color: #5A7EF8;
+	padding: 30rpx 20rpx;
+}
+.mytabbar_image {
+	width: 40rpx;
+	height: 34rpx;
+}
+.mytabbar_text {
+	font-size: 38rpx;
+	color: #FCFFFC;
+}
+.mytabbar_right {
+	font-size: 28rpx;
+	color: #DDE9F4;
+}
+.mytabbar_top {
+	width: 100%;
+	height: 100rpx;
+}
+.navtabbar {
+	height: 90rpx;
+	width: 100%;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 30rpx;
+}
+.basestyle {
+	/* flex-grow: 1; */
+	height: 90rpx;
+	width: 50%;
+	text-align: center;
+	line-height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.basestyle>view {
+	width: 200rpx;
+	height: 100%;
+}
+.active {
+	color: #5D7DF4;
+	border-bottom: 1rpx solid #5D7DF4;
+}
+
+/* 换机申请流水记录样式 */
+.mytimetitle {
+	height: 82rpx;
+	line-height: 82rpx;
+	background-color: #FFFFFF;
+	font-size: 34rpx;
+	padding-left: 30rpx;
+	border-bottom: 1rpx solid #E5E5E5;
+}
+.recodeitem {
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	height: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 30rpx;
+}
+.recodeitem_left {
+	height: 90rpx;
+	width: 400rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* align-items: center; */
+}
+.left_time {}
+.left_title {
+	height: 36rpx;
+	line-height: 36rpx;
+	font-size: 30rpx;
+	color: #5F84F6;
+}
+.recodeitem_right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	height: 90rpx;
+	width: 300rpx;
+	text-align: right;
+}
+.addmycolor {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 80rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 36rpx;
+	line-height: 36rpx;
+	font-size: 30rpx;
+}
+.addfontsize {
+	font-size: 34rpx;
+}
+

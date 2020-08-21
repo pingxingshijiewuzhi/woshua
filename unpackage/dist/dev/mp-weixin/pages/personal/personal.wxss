@@ -1,0 +1,141 @@
+
+.contents {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.top {
+	width: 100%;
+	height: 21%;
+	background-image: url(/static/pic/bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.top_left {
+	width: 70%;
+	height: 100%;
+}
+.top_left_img {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 50% 50%;
+	position: absolute;
+	top: 90rpx;
+	left: 20rpx
+}
+.name {
+	width: 480rpx;
+	height: 88rpx;
+	/* border:1rpx solid red; */
+	color: #FFFFFF;
+	line-height: 50rpx;
+	font-size: 36rpx;
+	letter-spacing: 2rpx;
+	padding-left: 120rpx;
+	padding-top: 26rpx;
+	text-align: left;
+}
+.top_left_t {
+	width: 80%;
+	height: 42%;
+	line-height: 96rpx;
+}
+.top_number {
+	width: 430rpx;
+	line-height: 50rpx;
+	background-color: #CFE3FE;
+	border-radius: 20rpx;
+	padding-left: 120rpx;
+	text-align: left;
+}
+.top_right {
+	width: 30%;
+	height: 100%;
+}
+.ma_img {
+	width: 50rpx;
+	height: 50rpx;
+}
+.jian_img {
+	width: 26rpx;
+	height: 40rpx;
+	margin-left: 20rpx
+}
+.types {
+	width: 100%;
+	height: 10%;
+	background-color: #FFFFFF;
+}
+.types_list {
+	width: 150rpx;
+	height: 140rpx;
+	line-height: 40rpx;
+	padding-top: 24rpx;
+	text-align: center;
+}
+.types_img {
+	width: 50rpx;
+	height: 50rpx
+}
+.mille {
+	width: 100%;
+	margin-top: 20rpx;
+	background-color: #FFFFFF;
+}
+.bottom {
+	width: 100%;
+	height: 29%;
+	background-color: #FFFFFF;
+	/* margin-top: 20rpx; */
+}
+.middle_list {
+	width: 100%;
+	/* height: 20%; */
+	height: 25%;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 0 34rpx;
+}
+.middle_lists {
+	width: 100%;
+	height: 25%;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 0 34rpx;
+}
+.border_none {
+	border-bottom: none;
+}
+.middle_list_l {
+	/* 	width:27%; */
+	height: 100%;
+}
+.middle_list_l image {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 30rpx
+}
+.middle_list_r {
+	width: 35%;
+	height: 100%;
+}
+.next_img {
+	width: 18rpx;
+	height: 32rpx
+}
+.next_imgs {
+	width: 24rpx;
+	height: 32rpx
+}
+.people {
+	color: #969696;
+	/* margin-left: 84rpx */
+}
+.mobile {
+	color: #969696;
+}
+.nosay{
+	width:100%;
+	height:7%;
+}
+
+
+

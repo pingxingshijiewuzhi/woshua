@@ -1,0 +1,115 @@
+
+.box {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	overflow-y: scroll;
+	position: relative;
+}
+.border {
+	width: 100%;
+	height: 200rpx;
+	margin-top: 20rpx;
+	border-bottom: solid 1rpx #E5E5E5;
+}
+.border_number {
+	font-size: 36px;
+	color: #577FFA;
+	margin-top: 40rpx;
+}
+.border_jine {
+	font-size: 30rpx;
+	color: #595959;
+	margin-top: 22rpx;
+}
+.time {
+	width: 100%;
+	height: auto;
+	/* height: 150rpx; */
+	font-size: 30rpx;
+	border-bottom: solid 1rpx #E5E5E5;
+	padding: 20rpx 20rpx;
+}
+.time_left{
+	width:200rpx;
+	height:50rpx;
+	line-height: 50rpx;
+	/* border:1rpx solid red; */
+}
+.time_right{
+	text-align: right;
+	height:auto;
+	width:500rpx;
+	/* border:1rpx solid red; */
+}
+.arrowsbox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* 箭头 */
+.penarrows{
+	width:18rpx;
+	height:30rpx;
+	margin-left: 20rpx;
+}
+
+/* 模态框跟过机具 */
+.morebox{
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:550rpx;
+	/* border:1rpx solid red; */
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+/* 单独给更多机具头部样式 */
+.head_time{
+	width: 100%;
+	height: 150rpx;
+	font-size: 30rpx;
+	border-bottom: solid 1rpx #E5E5E5;
+	padding: 0 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.head_time image{
+	width:30rpx;
+	height:30rpx;
+}
+.content_time{
+	height:400rpx;
+	width:100%;
+}
+.moretime {
+	width: 100%;
+	height: 100rpx;
+	font-size: 30rpx;
+	border-bottom: solid 1rpx #E5E5E5;
+	padding: 0 20rpx;
+}
+.bianmaqian {
+	margin-right: 10rpx;
+	line-height: 100rpx;
+	height: 100rpx;
+}
+.addyellow {
+	height: 100rpx;
+	line-height: 100rpx;
+	/* width:30%; */
+	color: #E7A342;
+	font-size: 40rpx;
+}
+

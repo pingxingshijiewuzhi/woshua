@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购码详情",
+  "usingComponents": {
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "passkeyborad": "/components/yzc-paykeyboard/yzc-paykeyboard"
+  }
+}

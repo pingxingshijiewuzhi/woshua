@@ -1,0 +1,208 @@
+
+.box {
+		width: 100vw;
+/* 		height: 100vh; */
+		background-color: #F2F2F2;
+		position: relative;
+		
+		/* overflow-y: scroll; */
+}
+	/* 占据自带导航栏高度 */
+	/* .apptabbar{
+		height: 100rpx;
+		width:100%;
+		border:1rpx solid red;
+	} */
+	/* border */
+.upborder {
+		position: fixed;
+		background-color: #FFFFFF;
+		top:0;
+		left:0;
+		right:0;
+		z-index: 999;
+		height: 100rpx;
+}
+.underborder {
+		width: 100%;
+		height: 100rpx;
+}
+.border_list {
+		width: 20%;
+		/* line-height: 120rpx; */
+		line-height: 100rpx;
+		text-align: center;
+		font-size: 32rpx;
+}
+.border_lists {
+		color: #5C81F7;
+		border-bottom: #5C81F7 solid 1rpx;
+}
+	/* barenr */
+.big_barner {
+		width: 100%;
+		/* height: calc(100vh - 100rpx);
+		overflow-y: scroll; */
+}
+.barner {
+		width: 100%;
+		height: 420rpx;
+		padding: 0 30rpx;
+		background-color: #FFFFFF;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 30rpx;
+		position: relative;
+}
+.barner_border {
+		height: 220rpx;
+		padding: 40rpx 0;
+		border-bottom: solid 1rpx #E5E5E5;
+		border-top: solid 1rpx #E5E5E5;
+}
+.barner_right {
+		line-height: 80rpx;
+		-webkit-align-self: flex-end;
+		        align-self: flex-end;
+		color: #FA4747;
+		font-size: 30rpx;
+		font-weight: 600;
+}
+.barner_image {
+		width: 140rpx;
+		height: 140rpx;
+		margin-right: 20rpx;
+}
+.barner_center {
+		width: 320rpx;
+		height: 130rpx;
+		font-size: 32rpx;
+		letter-spacing: 2rpx;
+}
+.center_number {
+		line-height: 80rpx;
+		color: #707070;
+		font-size: 30rpx;
+}
+.barner_rights {
+		width: 210rpx;
+		height: 140rpx;
+		line-height: 46rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		letter-spacing: 2rpx;
+}
+.rights_right {
+		-webkit-align-self: flex-end;
+		        align-self: flex-end;
+}
+.rights_rights {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		width: 320rpx;
+		-webkit-align-self: flex-end;
+		        align-self: flex-end;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		        justify-content: flex-end;
+}
+.last_left {
+		width: 160rpx;
+		line-height: 60rpx;
+		border: solid 1rpx #EDB970;
+		color: #EDB970;
+		text-align: center;
+		background-color: #F2F4FF;
+		border-radius: 20rpx;
+		margin-top: 30rpx;
+		margin-right: 20rpx;
+}
+.nothingbox{
+		width:50%;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		/* border:1rpx solid red; */
+		-webkit-align-self: flex-end;
+		        align-self: flex-end;
+}
+.barner_last {
+		width: 160rpx;
+		line-height: 60rpx;
+		border: solid 1rpx #90A1D9;
+		color: #90A1D9;
+		text-align: center;
+		background-color: #F2F4FF;
+		border-radius: 20rpx;
+		margin-top: 30rpx;
+}
+	/* 占位用,防止样式变形 */
+.kongbarner_last{
+		width: 160rpx;
+		line-height: 60rpx;
+		margin-top: 30rpx;
+}
+.last_bottom {
+		position: absolute;
+		right: 30rpx;
+		bottom: 30rpx;
+}
+	/* model */
+.cu-dialog {
+		border-radius: 20rpx;
+}
+.button_color {
+		width: 680rpx;
+		height: 260rpx;
+		background-color: #FFFFFF;
+}
+.button_top {
+		width: 680rpx;
+		line-height: 130rpx;
+		color: #3F57AD;
+		font-size: 38rpx;
+}
+.button_middle {
+		width: 680rpx;
+		height: 120rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		font-size: 30rpx;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		color: #000000;
+}
+.button_bottom_left {
+		width: 50%;
+		line-height: 88rpx;
+		border-top: 1px solid #E1E1E1;
+		background-color: #FFFFFF;
+}
+.button_bottom_right {
+		width: 50%;
+		line-height: 88rpx;
+		border-left: 1px solid #E1E1E1;
+		border-top: 1px solid #E1E1E1;
+		color: #3F57AD;
+		background-color: #FFFFFF;
+}
+.uni-loadmore {
+		text-align: center;
+}
+

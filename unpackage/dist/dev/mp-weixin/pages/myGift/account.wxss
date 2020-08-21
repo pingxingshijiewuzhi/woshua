@@ -1,0 +1,45 @@
+
+.box {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.big_box {
+	width: 100%;
+	height: 15%;
+	margin-top: 30rpx;
+	padding: 20rpx;
+	background-color: #FFFFFF;
+	color: #333333;
+}
+.list {
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid #E5E5E5
+}
+.button {
+	width: 100%;
+	line-height: 100rpx;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	font-size: 32rpx;
+}
+.button_left {
+	width: 33%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	color: #333333;
+}
+.button_center{
+	width: 33%;
+	height: 100rpx;
+	background-color: #000000;
+}
+.button_right {
+	width: 33%;
+	height: 100rpx;
+	background-color: #5880FA;
+}
+

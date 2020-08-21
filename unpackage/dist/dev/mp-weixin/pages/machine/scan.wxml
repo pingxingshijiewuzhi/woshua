@@ -1,0 +1,1 @@
+<view class="box"><view class="border flexs1"><image class="border_image" src="../../static/image/0000.png" mode data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e"></image><view class="border_text ">扫一扫</view></view><view class="title">请对准机具条形码</view><view class="touming"></view></view>

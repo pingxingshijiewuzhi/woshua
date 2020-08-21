@@ -1,0 +1,413 @@
+
+.myrobot {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F2F2F2;
+	position: relative;
+}
+
+/* mytabbar */
+.mytabbar {
+	width: 100%;
+	height: 270rpx;
+	background-color: #5A7EF8;
+	padding: 30rpx 20rpx;
+}
+.mytabbar_image {
+	width: 40rpx;
+	height: 34rpx;
+}
+.mytabbar_text {
+	font-size: 38rpx;
+	color: #FCFFFC;
+}
+.mytabbar_right {
+	font-size: 28rpx;
+	color: #DDE9F4;
+}
+.mytabbar_top {
+	width: 100%;
+	height: 100rpx;
+}
+.searchbox {
+	margin: 0 auto;
+	width: 690rpx;
+	height: 60rpx;
+	background-color: #8CA4FA;
+	border-radius: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 0 40rpx;
+}
+.myinput {
+	height: 100%;
+	margin-left: 20rpx;
+	width: 540rpx;
+	/* border:1rpx solid red; */
+	color: #FFFFFF;
+}
+
+/* input::-webkit-input-placeholder { color: red;}
+ input:-moz-placeholder { color: red;}
+ input:-ms-input-placeholder { color: red;}​ */
+.searchimg,
+.saoyisao {
+	width: 30rpx;
+	height: 30rpx;
+}
+.bigcontent_box {
+	/* 270rpx  100rpx;  120rpx*/
+	height: calc(100vh - 490rpx);
+	background-color: #FFFFFF;
+	/* border:1rpx solid red; */
+}
+.content_topbox {
+	width: 100%;
+	padding: 0 30rpx;
+	height: 90rpx;
+	background-color: #FFFFFF;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.activatetabbar {
+	width: 410rpx;
+	height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.activate_item {
+	width: 160rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+}
+.avtive {
+	color: #587FF6;
+	border-bottom: 1rpx solid #587FF6;
+}
+.orderbox_content {
+	background-color: #FFFFFF;
+	border: 1rpx solid #E5E5E5;
+	height: 90rpx;
+	padding: 15rpx 0;
+	width: 100%;
+	padding: 0 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.topbox_left {
+	width: 420rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.topbox_right {
+	width: 90rpx;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.topbox_right>view {
+	/* width:24rpx; */
+	width: 34rpx;
+	height: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+/* 有换机的样式 */
+.right_box {
+	height: 100%;
+	width: 180rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.convertent {
+	width: 80rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	background-color: #5B7DF8;
+	color: #FFFFFF;
+	margin-left: 40rpx;
+}
+.mysortimg {
+	width: 12rpx;
+	height: 28rpx;
+}
+.topbox_right>image {
+	width: 24rpx;
+	height: 28rpx;
+}
+.addyellow {
+	color: #DAAE4F;
+}
+.copybox {
+	border: 1rpx solid #E5E5E5;
+	color: #9A9A9A;
+	width: 80rpx;
+	text-align: center;
+	height: 32rpx;
+	line-height: 32rpx;
+}
+.nocopybox {
+	height: 32rpx;
+	width: 80rpx;
+}
+.addnum {
+	width: 32rpx;
+	height: 32rpx;
+}
+.bottom_box {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	box-shadow: 0rpx 1rpx 2rpx 1rpx rgba(0, 0, 0, 0.3);
+}
+.abbox {
+	height: 84rpx;
+	line-height: 84rpx;
+	text-align: center;
+	width: 84rpx;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: -30rpx;
+	left: 30rpx;
+	border-radius: 50%;
+	box-shadow: 0rpx 0rpx 2rpx 1rpx rgba(0, 0, 0, 0.3);
+}
+.bottom_box_left {
+	width: 75%;
+	height: 100rpx;
+	line-height: 100rpx;
+	background-color: #FFFFFF;
+	color: #989898;
+	padding-right: 20rpx;
+	text-align: end;
+}
+.bottom_box_right {
+	height: 100rpx;
+	line-height: 100rpx;
+	width: 25%;
+	text-align: center;
+	background-color: #D4D4D4;
+	color: #FFFFFF;
+}
+
+/* 筛选模态框 */
+.masking {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .3);
+}
+.sortmodify {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100vh;
+	width: 80vw;
+	background-color: #FFFFFF;
+}
+.finishbox {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 90rpx;
+	width: 80vw;
+	line-height: 90rpx;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #5A7EF8;
+}
+.head {
+	height: 130rpx;
+	width: 100%;
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.head>view {
+	width: 100rpx;
+	text-align: center;
+}
+.myaddfont {
+	font-size: 36rpx;
+}
+.content {
+	height: calc(100vh - 130rpx);
+	background-color: #FFFFFF;
+	padding: 0 50rpx;
+}
+.jishen {
+	height: 210rpx;
+	padding-top: 140rpx;
+	padding-bottom: 30rpx;
+	line-height: 40rpx;
+}
+.sortinputview {
+	width: 100%;
+	height: 60rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #F2F2F2;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 30rpx;
+}
+.sortinput {
+	padding-left: 30rpx;
+	height: 100%;
+	width: calc(100% - 60rpx);
+	/* border:1rpx solid red; */
+}
+.sortsaoyisao {
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 30rpx;
+}
+.markcontent {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.markcontent>view {
+	background-color: #F2F2F2;
+	margin-right: 20rpx;
+	padding: 10rpx 20rpx;
+}
+
+/* 解绑改机具 */
+.bigbox {
+	width: 690rpx;
+	height: 320rpx;
+	background-color: #FFFFFF;
+	border-radius: 40rpx;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	letter-spacing: 4rpx;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.mytitle {
+	width: 100%;
+	height: 120rpx;
+	line-height: 120rpx;
+	text-align: center;
+	color: #5B7DF8;
+	font-size: 30rpx;
+}
+.myentrue {
+	height: 90rpx;
+	line-height: 90rpx;
+	width: 100%;
+	text-align: center;
+	color: #9A9A9A;
+}
+.bottombtn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 70rpx;
+	border-top: 1rpx solid #E5E5E5;
+}
+.action_left {
+	height: 70rpx;
+	line-height: 70rpx;
+	width: 50%;
+	text-align: center;
+	border-bottom-left-radius: 40rpx;
+}
+.action_right {
+	text-align: center;
+	line-height: 70rpx;
+	height: 70rpx;
+	width: 50%;
+	background-color: #FFFFFF;
+	color: #5A7EF8;
+	border-left: 1rpx solid #E5E5E5;
+	border-top: 1rpx solid #E5E5E5;
+	border-bottom-right-radius: 40rpx;
+}
+

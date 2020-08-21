@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.box.data-v-19849b40 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
+  overflow-y: scroll;
+}
+/* border */
+.border.data-v-19849b40 {
+  width: 100%;
+  height: 130rpx;
+  color: #3D3D3D;
+  padding: 60rpx 20rpx 0 20rpx;
+  background-color: #FFFFFF;
+}
+.border_image.data-v-19849b40 {
+  width: 40rpx;
+  height: 30rpx;
+}
+.border_text.data-v-19849b40 {
+  font-size: 40rpx;
+  letter-spacing: 8rpx;
+  margin-left: 34rpx;
+  font-weight: 500;
+}
+.border_right.data-v-19849b40 {
+  font-size: 30rpx;
+}
+.border_top.data-v-19849b40 {
+  width: 94%;
+  height: 100rpx;
+}
+/* barner */
+.barner.data-v-19849b40 {
+  width: 100%;
+  height: 200rpx;
+  background-color: #FFFFFF;
+  margin-top: 30rpx;
+}
+.barner_left.data-v-19849b40 {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 64rpx;
+  margin-left: -50rpx;
+}
+.barner_right.data-v-19849b40 {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 64rpx;
+  margin-left: -50rpx;
+}
+.barner_corlor.data-v-19849b40 {
+  color: #999999;
+  margin-top: 10rpx;
+}
+.barner_borders.data-v-19849b40 {
+  width: 80rpx;
+  line-height: 80rpx;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 50% 50%;
+  background-color: #5A7EF8;
+  margin-left: 18rpx;
+}
+.barner_colors.data-v-19849b40 {
+  color: #5A7EF8;
+}
+.barner_dashed.data-v-19849b40 {
+  width: 140rpx;
+  height: 10rpx;
+  border-top: 1rpx dashed #999999;
+  margin: -30rpx 48rpx 0 0rpx;
+}
+/* tabar */
+.tabar.data-v-19849b40 {
+  width: 100%;
+  height: 200rpx;
+  background-color: #FFFFFF;
+  margin-top: 20rpx;
+  padding: 0 3%;
+  line-height: 90rpx;
+}
+.plase.data-v-19849b40 {
+  font-size: 30rpx;
+}
+.tabar_lists.data-v-19849b40 {
+  width: 31%;
+  height: 80rpx;
+  background-color: #F2F2F2;
+  border-radius: 20rpx;
+  color: #000000;
+}
+.tabar_list.data-v-19849b40 {
+  width: 31%;
+  height: 80rpx;
+  background-color: #5A7EF8;
+  color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.margin_ma.data-v-19849b40 {
+  margin: 0 4%;
+}
+/* title */
+.title_big.data-v-19849b40 {
+  width: 100%;
+  height: 80rpx;
+  background-color: #F2F2F2;
+}
+.title.data-v-19849b40 {
+  width: 460rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-left: solid 6rpx #5A7EF8;
+  margin: 30rpx 3%;
+  padding-left: 20rpx;
+}
+.title_photo.data-v-19849b40 {
+  width: 94%;
+  height: 160rpx;
+  color: #7E7E7E;
+  margin: 0 3%;
+}
+.zhizhao.data-v-19849b40 {
+  width: 120rpx;
+  height: 132rpx;
+  margin: 30rpx 30rpx 0 0;
+}
+.uni-input-placeholder.data-v-19849b40 {
+  font-size: 28rpx;
+}
+.title_box.data-v-19849b40 {
+  width: 100%;
+  height: 764rpx;
+  background-color: #FFFFFF;
+}
+.zhicehng.data-v-19849b40 {
+  width: 100%;
+  line-height: 100rpx;
+  border-bottom: solid 1rpx #E5E5E5;
+  padding: 0 3%;
+  position: relative;
+}
+.zhi_color.data-v-19849b40 {
+  width: 230rpx;
+  color: #3D3D3D;
+  font-size: 30rpx;
+}
+.zhi_input.data-v-19849b40 {
+  width: 440rpx;
+  font-size: 30rpx;
+}
+.image_next.data-v-19849b40 {
+  width: 18rpx !important;
+  height: 30rpx !important;
+  position: absolute;
+  right: 3% !important;
+}
+.MCCimage_next.data-v-19849b40 {
+  width: 18rpx !important;
+  height: 30rpx !important;
+  position: absolute;
+  right: 0 !important;
+}
+/* sole */
+.sole.data-v-19849b40 {
+  width: 100%;
+  height: 748rpx;
+  background-color: #FFFFFF;
+}
+.sole_sen.data-v-19849b40 {
+  width: 250rpx;
+  height: 160rpx;
+  margin-top: 30rpx;
+  margin-left: 90rpx;
+}
+.sole_sens.data-v-19849b40 {
+  width: 250rpx;
+  height: 160rpx;
+  margin-top: 30rpx;
+}
+.sen_text.data-v-19849b40 {
+  width: 220rpx;
+  margin-left: 108rpx;
+  font-size: 28rpx;
+  color: #3D3D3D;
+  margin-top: 10rpx;
+}
+.sole_name.data-v-19849b40 {
+  margin-bottom: 20rpx;
+}
+/* permit */
+.permit.data-v-19849b40 {
+  width: 100%;
+  height: 610rpx;
+  background-color: #FFFFFF;
+}
+.text_wh.data-v-19849b40 {
+  width: 320rpx !important;
+  font-size: 28rpx;
+  color: #3D3D3D;
+  margin-left: 56rpx;
+  margin-top: 10rpx;
+}
+.button.data-v-19849b40 {
+  width: 100%;
+  height: 80rpx;
+  background-color: #5A7EF8;
+  color: #FFFFFF;
+  font-size: 32rpx;
+}
+/* 图片弹框样式 */
+.myimgtype.data-v-19849b40 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content.data-v-19849b40 {
+  position: absolute;
+  bottom: 120rpx;
+  left: 40rpx;
+  right: 40rpx;
+  height: 160rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  color: #3C84F2;
+}
+.common_type.data-v-19849b40 {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.addbottom.data-v-19849b40 {
+  border: 1rpx solid #F2F2F2;
+}
+.commoncancle.data-v-19849b40 {
+  line-height: 80rpx;
+  text-align: center;
+  color: #3C84F2;
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 20rpx;
+  left: 40rpx;
+  right: 40rpx;
+  height: 80rpx;
+  background-color: #FFFFFF;
+}
+/* model time */
+.time_time.data-v-19849b40 {
+  width: 400rpx;
+  font-size: 30rpx;
+  color: #808080;
+  text-align: start;
+  padding-left: 8rpx;
+}
+.color_col.data-v-19849b40 {
+  color: #808080;
+  width: 480rpx;
+}
+.top.data-v-19849b40 {
+  width: 100%;
+  height: 310rpx;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.top_left.data-v-19849b40 {
+  margin-top: 10rpx;
+  color: #808080;
+}
+.last_height.data-v-19849b40 {
+  width: 100%;
+  height: 300rpx;
+  background-color: #FFFFFF;
+}
+.soles.data-v-19849b40 {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+}
+.haha_mytime.data-v-19849b40 {
+  position: relative;
+  width: 500rpx;
+  line-height: 60rpx;
+  padding-left: 10rpx;
+  text-align: left;
+  color: #A4A4A4;
+  line-height: 60rpx;
+}
+.position_img.data-v-19849b40 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-right: 20rpx;
+}
+.shouchi.data-v-19849b40 {
+  width: 340rpx;
+  margin-top: 10rpx;
+  margin-left: 42rpx;
+}
+

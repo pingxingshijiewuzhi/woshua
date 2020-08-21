@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "gpp-date-picker-copy": "/components/gpp-datePicker1/gpp-datePicker1"
+  }
+}

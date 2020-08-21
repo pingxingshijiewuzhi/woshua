@@ -1,0 +1,1 @@
+<view class="box"><rich-text class="box_text" nodes="{{info}}"></rich-text><view class=" button flexs"><image class="phone_image" src="../../static/image/icon_wdsh_h_dh@2x.png" mode></image><view data-event-opts="{{[['tap',[['concantserver',['$event']]]]]}}" bindtap="__e">联系客服注销账户</view></view></view>

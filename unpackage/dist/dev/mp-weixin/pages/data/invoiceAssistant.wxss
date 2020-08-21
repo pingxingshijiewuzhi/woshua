@@ -1,0 +1,58 @@
+
+.invoiceAssistant.data-v-7050f04d {
+	width: 100vw;
+	overflow-y: scroll;
+}
+.invoice_item.data-v-7050f04d {
+	margin-top: 30rpx;
+	padding: 30rpx;
+	width: 100%;
+	height: 210rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #FFFFFF;
+}
+.invoice_item_left.data-v-7050f04d {
+	width: 300rpx;
+	height: 100%;
+}
+.invoice_item_left image.data-v-7050f04d {
+	width: 100%;
+	height: 100%;
+	border-radius: 20rpx 20rpx;
+}
+.invoice_item_right.data-v-7050f04d {
+	width: 210rpx;
+	height: 100%;
+}
+.monthinvoice.data-v-7050f04d {
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: end;
+	letter-spacing: 4rpx;
+	font-size: 32rpx;
+	color: #637CD8;
+}
+.dateinvoice.data-v-7050f04d {
+	height: 80rpx;
+	color: #565656;
+	/* border:1rpx solid red; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.dateinvoice image.data-v-7050f04d{
+	width: 28rpx;
+	height: 24rpx;
+}
+

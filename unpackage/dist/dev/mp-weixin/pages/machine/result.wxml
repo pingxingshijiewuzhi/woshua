@@ -1,0 +1,1 @@
+<view class="box"><view class="big_boxs"><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="text">无法正常作业</view><view class=" big_list "><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list">蓝牙无法连接</view></block></view></view></block></view></view>

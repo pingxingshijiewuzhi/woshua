@@ -1,0 +1,138 @@
+<template>
+	<view class="box">
+		<view class="box_list">
+			<view class="list" v-for="(item,index) in 8" :key="index">
+				<view class="flexs1 border_bottom">
+					<image class="list_image" src="../../static/image/img_zp1@2x.png" mode=""></image>
+					<view class="border_left">
+						<view class="barner_first">小喔电签体验礼包A</view>
+						<view class="barner_zhu">刷脸e付代理加油礼包组</view>
+						<view class="bottom_p flexs1">
+							<view class="  flexs1">
+								<view class="">￥</view>
+								<view class="border_next">600</view>
+							</view>
+							<view class="border_num">/5台</view>
+						</view>
+					</view>
+					<view class="goumai" @click="tolibao">购买</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		methods: {
+			tolibao() {
+				uni.navigateTo({
+					url: "../activity/libaoxiang"
+				})
+			},
+		},
+	}
+</script>
+
+<style>
+	page {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	.box {
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+	}
+
+	.list {
+		width: 100%;
+		height: 240rpx;
+	}
+
+	.box_list {
+		width: 100%;
+		height: 1200rpx;
+		overflow-y: scroll;
+	}
+
+	.border_bottom {
+		width: 90%;
+		height: 240rpx;
+		margin: 0 5%;
+		border-bottom: solid 1rpx #E5E5E5;
+	}
+
+	.barner_first {
+		width: 380rpx;
+		height: 60rpx;
+		font-size: 34rpx;
+		margin-top: 0;
+	}
+
+	.barner_zhu {
+		color: #A6A6A6;
+	}
+
+	.barder_left {
+		font-size: 32rpx;
+		font-weight: 600;
+		margin-right: 40rpx;
+		color: #363636;
+		letter-spacing: 6rpx;
+	}
+
+	.barder_right {
+		font-size: 32rpx;
+		font-weight: 600;
+		color: #363636;
+		letter-spacing: 6rpx;
+		margin-top: 8rpx;
+	}
+
+	.barder_last {
+		font-size: 30rpx;
+		margin-top: 10rpx;
+		color: #5E5E5E;
+	}
+
+	.bottom_p {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.border_next {
+		font-size: 36rpx;
+		color: #FE3131;
+		letter-spacing: 2rpx;
+	}
+
+	.border_num {
+		letter-spacing: 2rpx;
+	}
+
+	.border_left {
+		height: 170rpx;
+		margin-left: 30rpx;
+		position: relative;
+	}
+
+	.list_image {
+		width: 180rpx;
+		height: 170rpx;
+	}
+
+	.goumai {
+		width: 100rpx;
+		line-height: 46rpx;
+		color: #7B91DC;
+		border: solid 1rpx #7B91DC;
+		text-align: center;
+		margin-top: 50rpx;
+	}
+</style>

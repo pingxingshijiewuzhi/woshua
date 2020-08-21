@@ -1,0 +1,403 @@
+
+.community {
+	/* height:100vh; */
+	/* height: calc(100vh - 100rpx); */
+	width: 100vw;
+	background-color: #F2F2F2;
+	position: relative;
+	margin-bottom: 100rpx;
+}
+.mytabbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	height: 130rpx;
+	padding-top: 40rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	background-color: #FFFFFF;
+}
+.hahatabbar {
+	width: 100%;
+	height: 130rpx;
+	padding-top: 40rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	background-color: blue;
+}
+.basestyle {
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 150rpx;
+	text-align: center;
+}
+.choosetitle {
+	color: #5E80FB;
+	border-bottom: 1rpx solid #5E80FB;
+}
+.contetnbox {
+	padding: 0 1%;
+	position: relative;
+	/* tabbar和导航栏高度 */
+	/* height:calc(100vh - 230rpx); */
+	/* overflow-y:scroll; */
+}
+.changetabbar {
+	position: fixed;
+	background-color: #f7f7f7;
+	z-index: 999;
+	top: 130rpx;
+	left: 0;
+	right: 0;
+	padding: 30rpx 1%;
+	height: 120rpx;
+	/* width:350rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* justify-content:space-between; */
+	/* border:1rpx solid red; */
+}
+.hahachangetabbar {
+	padding: 30rpx 1%;
+	height: 120rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: red;
+}
+.mybase {
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	width: 170rpx;
+	/* border-radius: 20%; */
+	border-radius: 20rpx;
+}
+.mybase:nth-child(1) {
+	margin-left: 4%;
+}
+.choosetab {
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+}
+.materrialslist {
+	height: calc(100% - 120rpx);
+	overflow: hidden;
+	overflow-y: scroll;
+	/* height:calc(100vh - 350rpx) */
+}
+.list_item {
+	/* width: 50%; */
+	/* 不该给49% */
+	/* width:49%; */
+	/* 也不该用相对父元素给高,因为父元素高度不固定 */
+	/* height:50%; */
+	height: 512rpx;
+	width: 48%;
+	margin: 0 1%;
+	/* padding: 0 4%; */
+	padding-bottom: 20rpx;
+	float: left;
+	/* border:1rpx solid red; */
+}
+.list_item_top {
+	height: 91%;
+	width: 100%;
+}
+.mtvideo {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/* .uni-video-controls{
+} */
+.list_item_top image {
+	width: 100%;
+	height: 100%;
+}
+.list_item_bottom {
+	height: 9%;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 30rpx;
+	margin-top: 10rpx;
+}
+.yearmonth {
+	width: 60%;
+	height: 100%;
+}
+.sharebox {
+	width: 30%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.sharebox image {
+	height: 24rpx;
+	width: 28rpx;
+}
+.sharebox>view {
+	height: 100%;
+	width: 40%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
+/* 日常问候样式 */
+.changetabbar_again {
+	padding: 30rpx 1%;
+	height: 120rpx;
+	width: 340rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.changetabbar_left,
+.changetabbar_right {
+	width: 148rpx;
+	height: 70rpx;
+}
+.btnchoose {
+	height: 60rpx;
+	width: 30rpx;
+}
+.btnchoose image {
+	display: block;
+	margin: 10rpx;
+	width: 18rpx;
+	height: 12rpx;
+}
+.community_time {
+	width: 58%;
+	height: 56%;
+}
+.community_xia {
+	width: 100%;
+	height: 56%;
+}
+.common_item {
+	padding: 0 1%;
+	height: 360rpx;
+}
+.imgbox {
+	height: 300rpx;
+	width: 100%;
+	padding: 25rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+.imgbox image {
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	height: 250rpx;
+	width: 30%;
+	margin-right: 3%;
+}
+.downloadsharebox {
+	width: 20%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.downloadsharebox image {
+	margin-top: -6rpx;
+	width: 28rpx;
+	height: 24rpx;
+}
+.downloadsharebox>view {
+	height: 100%;
+	width: 40%;
+	margin-left: 10%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
+/* 喔访谈样式 */
+.interview_contentbox {
+	padding: 0 1%;
+	position: relative;
+	/* padding: 0 1%;
+	tabbar和导航栏高度
+	height:calc(100vh - 230rpx);
+	overflow: hidden;
+	overflow-y: scroll; */
+}
+.interview_item {
+	margin-top: 30rpx;
+	height: 390rpx;
+	width: 100%;
+}
+
+/* 报名图片样式 */
+.interview_item_baoming {
+	margin-top: 30rpx;
+	height: 300rpx;
+	width: 100%;
+}
+.interview_item_top {
+	height: 300rpx;
+	width: 94%;
+	margin: 0 3%;
+}
+.interview_item_top image {
+	width: 100%;
+	height: 100%;
+	border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+.interview_item_bottom {
+	background-color: #FFFFFF;
+	height: 90rpx;
+	width: 94%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0 3%;
+	border-radius: 0 0 20rpx 20rpx;
+}
+.opacitytitle {
+	width: 60%;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: left;
+}
+.eyeview {
+	width: 15%;
+	height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.eyeview image {
+	width: 38rpx;
+	height: 24rpx;
+}
+.eyeview>view {
+	width: 50%;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+}
+
+/* 分享弹框样式 */
+.masking {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .3);
+}
+.modelopacity {
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 390rpx;
+	background-color: #FFFFFF;
+	/* border:1rpx solid red; */
+}
+.my_title {
+	font-size: 32rpx;
+	height: 150rpx;
+	line-height: 150rpx;
+	text-align: center;
+}
+.typechoose {
+	height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.typechoose image {
+	width: 120rpx;
+	height: 120rpx;
+}
+.bottombtn {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 80rpx;
+}
+.bottombtn image {
+	width: 100%;
+	height: 100%;
+}
+

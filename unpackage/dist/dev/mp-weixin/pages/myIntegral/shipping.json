@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "配送地址",
+  "usingComponents": {
+    "pick-regions": "/address/components/pick-regions/pick-regions"
+  }
+}

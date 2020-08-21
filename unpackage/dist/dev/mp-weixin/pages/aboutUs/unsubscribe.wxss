@@ -1,0 +1,55 @@
+
+.box {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	letter-spacing: 2rpx;
+	font-size: 32rpx;
+}
+.box_text {
+	text-indent: 2em;
+}
+
+/* 	.big_border{
+	width: 100%;
+	padding: 0 30rpx;
+}
+.border{
+	width: 100%;
+	line-height: 60rpx;
+	margin-top:20rpx;
+}
+.next{
+	line-height: 60rpx;
+}
+.ran{
+	line-height: 50rpx;
+}
+.box_image{
+	width: 36rpx;
+	height: 36rpx;
+	margin-right: 36rpx;
+}
+.mt{
+	padding-top: 60rpx;
+}
+.list{
+	line-height: 80rpx;
+	margin-left: 50rpx;
+} */
+.phone_image {
+	width: 32rpx;
+	height: 36rpx;
+	margin-right: 20rpx;
+	margin-top: -10rpx;
+}
+.button {
+	width: 100%;
+	line-height: 100rpx;
+	background-color: #5A7EF8;
+	position: absolute;
+	bottom: 0;
+	color: #FFFFFF;
+}
+

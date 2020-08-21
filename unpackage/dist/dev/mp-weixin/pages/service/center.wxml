@@ -1,0 +1,1 @@
+<view class="box"><textarea class="bigbox" placeholder="请输入工单内容" data-event-opts="{{[['input',[['__set_model',['','content','$event',[]]]]]]}}" value="{{content}}" bindinput="__e"></textarea><view data-event-opts="{{[['tap',[['entrue',['$event']]]]]}}" class="button flexs" bindtap="__e">确定</view></view>

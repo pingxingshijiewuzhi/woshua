@@ -1,0 +1,167 @@
+
+.mybill.data-v-db468462 {
+	height: 100vh;
+	width: 100vw;
+	background-color: #F2F2F2;
+}
+.mybillitem.data-v-db468462 {
+	background-color: #FFFFFF;
+}
+.monthscreen.data-v-db468462 {
+	background-color: #F2F2F2;
+	width: 100%;
+	padding-left: 30rpx;
+	height: 86rpx;
+	line-height: 86rpx;
+	letter-spacing: 4rpx;
+	color: #969696;
+	font-size: 32rpx;
+}
+.month_item.data-v-db468462 {
+	padding: 0 30rpx;
+	height: 146rpx;
+	width: 100%;
+	border-bottom: 1rpx solid #F2F2F2;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.month_item_left.data-v-db468462 {
+	height: 100%;
+	width: 230rpx;
+}
+.month_item_right.data-v-db468462 {
+	height: 146rpx;
+	line-height: 146rpx;
+	width: 200rpx;
+	text-align: end;
+	font-size: 40rpx;
+}
+.mytitle.data-v-db468462 {
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 40rpx;
+	width: 100%;
+}
+.my_time.data-v-db468462 {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+/* 模态框样式 */
+
+/* model */
+.text-red.data-v-db468462 {
+	width: 40rpx;
+	height: 40rpx;
+	border: solid 1rpx #000000;
+	color: #000000;
+	border-radius: 50% 50%;
+}
+.icon-right.data-v-db468462 {
+	width: 40rpx;
+	height: 30rpx;
+}
+.content.data-v-db468462 {
+	width: 100% !important;
+	height: 70rpx;
+	color: #000000;
+}
+.value.data-v-db468462 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 0 16rpx;
+}
+.row.data-v-db468462 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 30rpx;
+	height: 100rpx;
+	padding: 0 30rpx;
+	z-index: 99;
+	border-bottom: solid 1rpx #E5E5E5;
+}
+.rows.data-v-db468462 {
+	margin: 0 auto;
+}
+.row.data-v-db468462:after {
+	content: '';
+	height: 1px;
+	left: 30rpx;
+	bottom: 0;
+	background: #e4e5e6;
+	z-index: 10;
+	position: absolute;
+}
+.label.data-v-db468462 {
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.value.data-v-db468462 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 0 16rpx;
+}
+.cu-modal.data-v-db468462 {
+	z-index: 11;
+}
+.padding-xl.data-v-db468462 {
+	background-color: #FFFFFF;
+	padding: 0;
+}
+.title.data-v-db468462 {
+	width: 100%;
+	height: 50rpx;
+	font-size: 34rpx;
+	padding: 20rpx 0 0 20rpx;
+}
+.radio_box.data-v-db468462 {
+	width: 100%;
+	height: 290rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.cu-form-group.data-v-db468462 {
+	width: 100%;
+	height: 300rpx;
+}
+.radio_list.data-v-db468462 {
+	width: 21%;
+	line-height: 60rpx;
+	border-radius: 10rpx 0rpx;
+	background-color: #F2F2F2;
+	margin: 20rpx 0rpx 0 20rpx;
+	font-size: 28rpx;
+	border-radius: 50rpx 50rpx;
+}
+.action_left.data-v-db468462 {
+	width: 50%;
+	height: 100rpx;
+}
+.action_left.data-v-db468462:hover {
+	background-color: #5A7EF8;
+}
+.action_right.data-v-db468462 {
+	width: 50%;
+	height: 100rpx;
+}
+.action_right.data-v-db468462:hover {
+	background-color: #5A7EF8;
+}
+.cu-dialog.data-v-db468462 {
+	position: absolute;
+	top: 200rpx;
+	right: 36rpx;
+}
+

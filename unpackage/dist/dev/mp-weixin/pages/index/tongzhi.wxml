@@ -1,0 +1,1 @@
+<view class="box"><view class="big_box"><view class="border"><view class="border_text">{{title}}</view><view class="border_number">{{createtime}}</view></view><view class="center">{{''+content+''}}</view></view></view>

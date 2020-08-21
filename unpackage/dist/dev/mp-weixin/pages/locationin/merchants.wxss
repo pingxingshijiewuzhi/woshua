@@ -1,0 +1,42 @@
+
+.box {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.four_box {
+	width: 100%;
+	height: 1200rpx;
+	overflow-y: scroll;
+}
+.four {
+	width: 100%;
+	height: 180rpx;
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	font-size: 32rpx;
+	margin-top: 20rpx;
+	position: relative;
+}
+.four_left {
+	color: #626262;
+}
+.four_time {
+	margin-top: 10rpx;
+}
+.four_list {
+	width: 50rpx;
+	height: 50rpx;
+}
+.four_money {
+	position: absolute;
+	top: 48rpx;
+	right: 30rpx;
+	color: #8AA2EB;
+	font-size: 28rpx;
+}
+.mle {
+	margin-left: 30rpx;
+	margin-top: 0;
+}
+

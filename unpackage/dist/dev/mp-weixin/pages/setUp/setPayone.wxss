@@ -1,0 +1,56 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.content {
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFFFFF;
+}
+.top {
+	width: 100%;
+	height: 30%;
+}
+.list {
+	width: 100%;
+	height: 30%;
+	position: relative;
+	top: 30rpx;
+}
+.new {
+	margin-top: 30rpx
+}
+.list image {
+	width: 44rpx;
+	height: 48rpx
+}
+.list_input {
+	width: 85%;
+	height: 120rpx;
+	border-bottom: 1px solid #E5E5E5
+}
+.uni-input-placeholder {
+	color: #555555 !important
+}
+.list_code {
+	width: 160rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	background-color: #D4D4D4;
+	color: #FFFFFF
+}
+.btns {
+	width: 80%;
+	height: 100rpx;
+	line-height: 100rpx;
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	top: 150rpx;
+	margin: 0 auto
+}
+

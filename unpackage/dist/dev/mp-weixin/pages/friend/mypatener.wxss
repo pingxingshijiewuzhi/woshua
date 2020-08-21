@@ -1,0 +1,154 @@
+
+.box {
+	width: 100vw;
+	/* height: 100vh; */
+	/* overflow: hidden; */
+}
+
+/* border */
+.border {
+	width: 100%;
+	height: 200rpx;
+	background-color: #FFFFFF;
+	padding: 0 20rpx;
+}
+.border_toux {
+	width: 110rpx;
+	height: 110rpx;
+	border-radius: 50%;
+}
+.border_phone {
+	width: 36rpx;
+	height: 36rpx;
+	margin-top: -20rpx;
+}
+.border_name {
+	margin: -40rpx 0 0 20rpx;
+}
+.mr {
+	margin-right: 40rpx;
+	margin-top: -6rpx;
+}
+.bgc {
+	width: 100%;
+	height: 30rpx;
+	background-color: #F2F2F2;
+}
+
+/* next */
+.tabar_lefts {
+	width: 100%;
+	line-height: 100rpx;
+	color: #A2A2A2;
+	border-bottom: solid 1rpx #E5E5E5;
+}
+.tabar_bottom {
+	width: 94%;
+	height: 242rpx;
+	margin: 0 3%;
+	background-color: #FFFFFF;
+	color: #A2A2A2;
+	padding: 0 30rpx;
+	line-height: 66rpx;
+	font-size: 30rpx;
+	padding-top: 30rpx;
+}
+.tabar_border {
+	border-right: solid 1rpx #F3F3F3;
+	height: 110rpx;
+}
+.tabar_start {
+	width: 50%;
+	line-height: 60rpx;
+	text-align: center;
+	margin: 30rpx 0;
+}
+.tabar_bgc {
+	background-color: #FFFFFF;
+}
+.start_l {
+	font-size: 38rpx;
+	color: #000000;
+}
+.pa_l {
+	padding-left: 30rpx;
+}
+
+/* pattern */
+.pattern {
+	width: 100%;
+	/* height: 400rpx; */
+	background-color: #FFFFFF;
+	padding: 0 20rpx;
+}
+.partten_duan {
+	width: 80rpx;
+	height: 40rpx;
+	background-color: #FFFFFF;
+	color: #ADADAD;
+}
+.partten_long {
+	width: 80rpx;
+	height: 40rpx;
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+}
+.pattern_xinz {
+	letter-spacing: 4rpx;
+	color: #A2A2A2;
+}
+.pattern_top {
+	width: 100%;
+	line-height: 100rpx;
+}
+
+/* 折线图样式 */
+.linechartcontent {
+	height: 720rpx;
+	width: 100%;
+	/* border:1rpx solid red; */
+}
+.echarts {
+	width: 100%;
+	height: 100%;
+}
+.ecahrtnext {
+	/* border:1rpx solid red; */
+	height: 500rpx;
+	width: 100%;
+}
+.especilly {
+	background-color: #5A7EF8;
+	color: #FFFFFF;
+	height: 200rpx;
+	border-radius: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.especillytitle {
+	width: 100%;
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.especillynum {
+	width: 100%;
+	text-align: center;
+	height: 120rpx;
+	line-height: 120rpx;
+	font-size: 42rpx;
+}
+

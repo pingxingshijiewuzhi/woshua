@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "代理业绩",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#5A7EF8",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

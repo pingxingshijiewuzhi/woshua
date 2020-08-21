@@ -1,0 +1,1 @@
+<view class="box"><jyf-parser class="vue-ref" vue-id="159c4fdd-1" html="{{helpobj}}" data-ref="article" bind:__l="__l"></jyf-parser></view>

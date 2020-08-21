@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "pick-regions": "/address/components/pick-regions/pick-regions",
+    "gpp-date-picker": "/components/gpp-datePicker/gpp-datePicker",
+    "pick-copyregions": "/components/pick-regions/pick-regions"
+  }
+}
