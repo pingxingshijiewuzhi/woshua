@@ -1,6 +1,4 @@
 export default {
-		// baseUrl: 'http://www.j6j6.net',
-		// newUrl: 'http://www.j6j6.net',
 		newUrl: 'http://ohbrush.shangxin6688.com',
 		baseUrl: 'http://ohbrush.shangxin6688.com',
 		// 获取日期，如果不传则返回当前日期  yyyy-mm-dd hh-mm-ss
